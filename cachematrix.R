@@ -66,15 +66,15 @@ cacheSolve <- function(x, ...) {
 
 # # Scratch area 
 
-mvect <- sample(1:500, 25)
+# mvect <- sample(1:500, 25)
 
-tmatrix <- matrix(mvect, nrow=5, ncol=5 )
+# tmatrix <- matrix(mvect, nrow=5, ncol=5 )
 
-cmatrix <- makeCacheMatrix(tmatrix)
-cmatrix$getmtrx() 
-cmatrix$getinvr()
+# cmatrix <- makeCacheMatrix(tmatrix)
+# cmatrix$getmtrx() 
+# cmatrix$getinvr()
 
-cacheSolve(cmatrix)
-cacheSolve(cmatrix)
+# cacheSolve(cmatrix)
+# cacheSolve(cmatrix)
 
 
